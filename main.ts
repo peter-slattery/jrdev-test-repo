@@ -42,3 +42,4 @@ function solveQuadratic(a, b, c) {
         return [root1, root2]; // Two real roots
     }
 }
+console.log(' /\\_/\\\n( o.o )\n > ^ <');
