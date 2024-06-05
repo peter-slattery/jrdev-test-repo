@@ -43,3 +43,8 @@ function solveQuadratic(a, b, c) {
     }
 }
 console.log(' /\\_/\\\n( o.o )\n > ^ <');
+console.log(`
+ /\\_/\\  
+( o.o ) 
+ > ^ <
+`);
