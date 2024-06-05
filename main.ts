@@ -11,3 +11,20 @@ function fibonacci(n) {
 ```
 
 // This comment wasn't made by junior
+
+function solveQuadratic(a, b, c) {
+    const discriminant = b * b - 4 * a * c;
+    if (discriminant < 0) {
+        return [];
+    } else if (discriminant === 0) {
+        const x = -b / (2 * a);
+        return [x];
+    } else {
+        const sqrtDiscriminant = Math.sqrt(discriminant);
+        const x1 = (-b + sqrtDiscriminant) / (2 * a);
+        const x2 = (-b - sqrtDiscriminant) / (2 * a);
+        return [x1, x2];
+    }
+}
+
+console.log(solveQuadratic(1, -3, 2)); // Example usage: [2, 1]
