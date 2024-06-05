@@ -28,3 +28,17 @@ function solveQuadratic(a, b, c) {
 }
 
 console.log(solveQuadratic(1, -3, 2)); // Example usage: [2, 1]
+function solveQuadratic(a, b, c) {
+    const discriminant = b * b - 4 * a * c;
+    if (discriminant < 0) {
+        return []; // No real roots
+    } else if (discriminant === 0) {
+        const root = -b / (2 * a);
+        return [root]; // One real root
+    } else {
+        const sqrtDiscriminant = Math.sqrt(discriminant);
+        const root1 = (-b + sqrtDiscriminant) / (2 * a);
+        const root2 = (-b - sqrtDiscriminant) / (2 * a);
+        return [root1, root2]; // Two real roots
+    }
+}
