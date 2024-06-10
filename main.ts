@@ -1,5 +1,7 @@
+import { animalSound } from './animals';
+
 const main = () => {
-  console.log("Hello world!")
+  console.log(animalSound)
 }
 
 main()
