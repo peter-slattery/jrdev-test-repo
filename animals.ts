@@ -1,3 +1,5 @@
-const animalSound: string = 'Roar';
+const dogSound = 'Woof';
+const catSound = 'Meow';
+const animalSound = 'Roar';
 
-export { animalSound };
+export { dogSound, catSound, animalSound };
