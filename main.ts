@@ -1,7 +1,9 @@
-import { animalSound } from './animals';
+import { dogSound, catSound, animalSound } from './animals';
 
 const main = () => {
-  console.log(animalSound)
+  console.log(dogSound);
+  console.log(catSound);
+  console.log(animalSound);
 }
 
 main()
