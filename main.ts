@@ -7,3 +7,4 @@ const main = () => {
 }
 
 main()
+console.log('hello!')
